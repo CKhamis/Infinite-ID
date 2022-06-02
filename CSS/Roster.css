@@ -1,0 +1,33 @@
+#ContentContainer{
+	margin: 10px 1% 0 1%;
+}
+#profilePhoto{
+	border-radius: 1000px;
+	width:100px;
+}
+#reportContainer{
+	width:100%;
+	margin:10px;
+}
+#name{
+	position:relative;
+}
+#generalInformation{
+	list-style-type: none;
+	text-align: center;
+	width:20%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#otherInformation{
+    overflow: hidden;
+	width:80%;
+	right:0;
+	float:right;
+	margin:0;
+	padding:0;
+}
+#otherInformation ul{
+	list-style-type: none;
+}

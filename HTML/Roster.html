@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../CSS/Constant.css">
+		<link rel="stylesheet" href="../CSS/Roster.css">
+		<title>Roster View</title>
+		<link rel="icon" href="../Images/Logos/InfiniteID Dark.png">
+		<script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../Javascript/Javascript.js"></script>
+	</head>
+	<body>
+    <iframe src="../Components/Header.html" class="Navigation" id="Header" frameBorder="0"></iframe>
+    <div id="ContentContainer">
+    	<select id="peopleOptions"></select>
+    	<button type="button" id="updateBtn" style="background-color:#17A589">Update Entry</button>
+    	<div id="reportContainer">
+			<ul id="generalInformation">
+				<li><img id="profilePhoto"></li>
+				<li><h1 id="Name"></h1></li>
+				<li><p id="Birthday"></p></li>
+				<li><p id="Info"></p></li>
+			</ul>
+    		<div id="otherInformation">
+    			<h1>Status</h1>
+    			<ul>
+    				<li><h3 id="Status"></h3></li>
+    				<li><h3 id="Lvl"></h3></li>
+    				<li><h3 id="Met"></h3></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+	</body>
+</html>
