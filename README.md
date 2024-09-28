@@ -1,5 +1,5 @@
 # Infinite ID
-Infinite ID is the original relationship journaling program series. It features macro statistics about the friends you associate with, how your social group is changing, and more.
+Infinite ID is the original relationship journaling program series created in 2017. It features macro statistics about the friends you associate with, how your social group is changing, and more.
 
 Development of this program ended in the early stages because at the time, I was questioning the viability of this type of journaling.
 
@@ -13,7 +13,7 @@ This program uses D3.JS to parse and analyze data given to it. This is because a
 
 This is the very first of all my projects to handle data storage in a significant way.
 
-# Component-Based UI
+## Component-Based UI
 Like [Robotics-Website-Milestone-3](https://github.com/CKhamis/Robotics-Website-Milestone-3), this uses my basic implementation of a component based user interface. Various components were stored as separate HTML files and added into pages using iframe elements to centralize and unify the codebase.
 
 ## How to Run
